@@ -1,0 +1,16 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="Views.Master" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{karthik>master}">
+		<content>
+	       <List items='{/cust}'>
+	       
+	       <StandardListItem type='Active'
+	                         title='{ProductName}'
+	                         info='{UnitsInStock}'
+	                         press='detailclick'></StandardListItem>
+	       
+	       
+	       </List>
+		</content>
+	</Page>
+</core:View>
